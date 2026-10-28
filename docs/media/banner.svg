@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="ValueGrid Studio legal pages: the privacy policy for the Android drawing-grid and value-study app, in five languages">
+<title>ValueGrid Studio: legal pages</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121c33"/><stop offset=".5" stop-color="#1b2a4a"/><stop offset="1" stop-color="#14408a"/></linearGradient>
+<radialGradient id="g1" cx=".08" cy="0" r=".55"><stop offset="0" stop-color="#8ab4f8" stop-opacity=".40"/><stop offset="1" stop-color="#8ab4f8" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx="1" cy="1" r=".65"><stop offset="0" stop-color="#1a73e8" stop-opacity=".65"/><stop offset="1" stop-color="#1a73e8" stop-opacity="0"/></radialGradient>
+<linearGradient id="tx" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#bcd3ff"/></linearGradient>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".5"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5c5953"/><stop offset="1" stop-color="#2e2c29"/></linearGradient>
+<linearGradient id="table" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c9c5bb"/><stop offset="1" stop-color="#9e9a91"/></linearGradient>
+<radialGradient id="sphere" cx=".34" cy=".3" r=".8"><stop offset="0" stop-color="#fbfaf6"/><stop offset=".45" stop-color="#bdb9b0"/><stop offset=".8" stop-color="#5d5a54"/><stop offset="1" stop-color="#3b3935"/></radialGradient>
+<linearGradient id="vase" x1="0" x2="1"><stop offset="0" stop-color="#7d7a73"/><stop offset=".28" stop-color="#e9e6de"/><stop offset=".6" stop-color="#5e5b55"/><stop offset="1" stop-color="#25231f"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".04"/></pattern>
+<clipPath id="card"><rect width="1280" height="360" rx="28"/></clipPath>
+<clipPath id="ref"><rect x="812" y="54" width="300" height="252" rx="10"/></clipPath>
+<clipPath id="sph"><circle cx="904" cy="200" r="52"/></clipPath>
+<clipPath id="vclip"><path d="M1008 114 h36 v14 c0 10 26 26 26 66 c0 34 -18 58 -44 60 c-26 -2 -44 -26 -44 -60 c0 -40 26 -56 26 -66 z"/></clipPath>
+<clipPath id="half"><rect class="wipe" x="512" y="54" width="300" height="252"/></clipPath>
+<mask id="tm"><text x="84" y="182" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="80" font-weight="800" letter-spacing="-2.4" fill="#fff">ValueGrid</text></mask>
+</defs>
+<style>
+.gl{stroke:#8ab4f8;stroke-opacity:0;stroke-width:1;animation:gl .6s ease-out forwards}
+@keyframes gl{to{stroke-opacity:.7}}
+.vs{opacity:0;animation:pop .4s ease-out forwards}
+@keyframes pop{from{opacity:0}to{opacity:1}}
+.wipe{animation:wipe 9s cubic-bezier(.65,0,.35,1) 1.2s infinite}
+@keyframes wipe{0%,12%{transform:translateX(0)}38%,62%{transform:translateX(300px)}88%,100%{transform:translateX(600px)}}
+.edge{animation:edge 9s cubic-bezier(.65,0,.35,1) 1.2s infinite}
+@keyframes edge{0%,12%{transform:translateX(0);opacity:0}14%{opacity:1}38%,62%{transform:translateX(300px);opacity:1}86%{opacity:1}88%,100%{transform:translateX(600px);opacity:0}}
+.probe{animation:probe 6s ease-in-out infinite alternate}
+@keyframes probe{0%{transform:translateY(0)}100%{transform:translateY(196px)}}
+.rv{opacity:0;animation:rv .9s cubic-bezier(.2,.7,.2,1) forwards}.d1{animation-delay:.1s}.d2{animation-delay:.3s}.d3{animation-delay:.5s}.d4{animation-delay:.7s}
+@keyframes rv{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.shine{animation:sweep 7s ease-in-out infinite}
+@keyframes sweep{0%{transform:translateX(-300px)}50%,100%{transform:translateX(720px)}}
+.drift{animation:dr 10s ease-in-out infinite alternate}
+@keyframes dr{to{transform:translate(36px,12px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}.gl{stroke-opacity:.7}}
+</style>
+<g clip-path="url(#card)">
+<rect width="1280" height="360" fill="url(#bg)"/>
+<rect width="1280" height="360" fill="url(#grid)"/>
+<rect class="drift" width="1280" height="360" fill="url(#g1)"/>
+<rect width="1280" height="360" fill="url(#g2)"/>
+
+<!-- reference card: full tone, notan wipe, measured grid -->
+<g class="rv d2">
+<rect x="806" y="48" width="312" height="264" rx="14" fill="rgba(8,14,28,.55)" stroke="rgba(255,255,255,.14)"/>
+<g clip-path="url(#ref)">
+
+<rect x="812" y="54" width="300" height="252" fill="url(#wall)"/>
+<rect x="812" y="236" width="300" height="70" fill="url(#table)"/>
+<ellipse cx="908" cy="250" rx="64" ry="12" fill="#1c1c1b" opacity=".55"/>
+<circle cx="904" cy="200" r="52" fill="url(#sphere)"/>
+<ellipse cx="1026" cy="254" rx="48" ry="9" fill="#1c1c1b" opacity=".5"/>
+<path d="M1008 114 h36 v14 c0 10 26 26 26 66 c0 34 -18 58 -44 60 c-26 -2 -44 -26 -44 -60 c0 -40 26 -56 26 -66 z" fill="url(#vase)"/>
+
+<g clip-path="url(#half)">
+<rect x="812" y="54" width="300" height="252" fill="#151514"/>
+<rect x="812" y="236" width="300" height="70" fill="#efeee9"/>
+<ellipse cx="924" cy="250" rx="62" ry="12" fill="#151514"/>
+<ellipse cx="1038" cy="254" rx="46" ry="9" fill="#151514"/>
+<circle cx="904" cy="200" r="52" fill="#efeee9"/>
+<g clip-path="url(#sph)"><circle cx="948" cy="240" r="66" fill="#151514"/></g>
+<path d="M1008 114 h36 v14 c0 10 26 26 26 66 c0 34 -18 58 -44 60 c-26 -2 -44 -26 -44 -60 c0 -40 26 -56 26 -66 z" fill="#efeee9"/>
+<g clip-path="url(#vclip)"><rect x="1034" y="104" width="60" height="160" fill="#151514"/></g>
+</g>
+<rect class="edge" x="810" y="54" width="3" height="252" fill="#8ab4f8"/>
+<line class="gl" style="animation-delay:0.40s" x1="842" y1="54" x2="842" y2="306"/><line class="gl" style="animation-delay:0.45s" x1="872" y1="54" x2="872" y2="306"/><line class="gl" style="animation-delay:0.50s" x1="902" y1="54" x2="902" y2="306"/><line class="gl" style="animation-delay:0.55s" x1="932" y1="54" x2="932" y2="306"/><line class="gl" style="animation-delay:0.60s" x1="962" y1="54" x2="962" y2="306"/><line class="gl" style="animation-delay:0.65s" x1="992" y1="54" x2="992" y2="306"/><line class="gl" style="animation-delay:0.70s" x1="1022" y1="54" x2="1022" y2="306"/><line class="gl" style="animation-delay:0.75s" x1="1052" y1="54" x2="1052" y2="306"/><line class="gl" style="animation-delay:0.80s" x1="1082" y1="54" x2="1082" y2="306"/><line class="gl" style="animation-delay:0.40s" x1="812" y1="84" x2="1112" y2="84"/><line class="gl" style="animation-delay:0.45s" x1="812" y1="114" x2="1112" y2="114"/><line class="gl" style="animation-delay:0.50s" x1="812" y1="144" x2="1112" y2="144"/><line class="gl" style="animation-delay:0.55s" x1="812" y1="174" x2="1112" y2="174"/><line class="gl" style="animation-delay:0.60s" x1="812" y1="204" x2="1112" y2="204"/><line class="gl" style="animation-delay:0.65s" x1="812" y1="234" x2="1112" y2="234"/><line class="gl" style="animation-delay:0.70s" x1="812" y1="264" x2="1112" y2="264"/><line class="gl" style="animation-delay:0.75s" x1="812" y1="294" x2="1112" y2="294"/>
+</g>
+<g stroke="#8ab4f8" stroke-opacity=".75" stroke-width="1.2" font-family="ui-monospace,SFMono-Regular,&quot;Cascadia Mono&quot;,Consolas,Menlo,monospace" font-size="10" fill="#a9c6fb"><line x1="812" y1="44" x2="812" y2="52"/><text x="814" y="40">0</text><line x1="827" y1="48" x2="827" y2="52"/><line x1="842" y1="44" x2="842" y2="52"/><line x1="857" y1="48" x2="857" y2="52"/><line x1="872" y1="44" x2="872" y2="52"/><text x="874" y="40">2</text><line x1="887" y1="48" x2="887" y2="52"/><line x1="902" y1="44" x2="902" y2="52"/><line x1="917" y1="48" x2="917" y2="52"/><line x1="932" y1="44" x2="932" y2="52"/><text x="934" y="40">4</text><line x1="947" y1="48" x2="947" y2="52"/><line x1="962" y1="44" x2="962" y2="52"/><line x1="977" y1="48" x2="977" y2="52"/><line x1="992" y1="44" x2="992" y2="52"/><text x="994" y="40">6</text><line x1="1007" y1="48" x2="1007" y2="52"/><line x1="1022" y1="44" x2="1022" y2="52"/><line x1="1037" y1="48" x2="1037" y2="52"/><line x1="1052" y1="44" x2="1052" y2="52"/><text x="1054" y="40">8</text><line x1="1067" y1="48" x2="1067" y2="52"/><line x1="1082" y1="44" x2="1082" y2="52"/><line x1="1097" y1="48" x2="1097" y2="52"/><line x1="1112" y1="44" x2="1112" y2="52"/><line x1="802" y1="54" x2="810" y2="54"/><line x1="802" y1="84" x2="810" y2="84"/><line x1="802" y1="114" x2="810" y2="114"/><line x1="802" y1="144" x2="810" y2="144"/><line x1="802" y1="174" x2="810" y2="174"/><line x1="802" y1="204" x2="810" y2="204"/><line x1="802" y1="234" x2="810" y2="234"/><line x1="802" y1="264" x2="810" y2="264"/><line x1="802" y1="294" x2="810" y2="294"/></g>
+<text x="1112" y="40" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.6" fill="#8ab4f8">CM</text>
+<text x="812" y="332" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#8ab4f8">FULL TONE  <tspan fill="#5b6f96">/</tspan>  NOTAN</text>
+</g>
+
+<!-- value scale with probe -->
+<g class="rv d3" font-family="ui-monospace,SFMono-Regular,&quot;Cascadia Mono&quot;,Consolas,Menlo,monospace" font-size="10" fill="#a3abb5">
+<rect class="vs" style="animation-delay:0.60s" x="1148" y="54" width="40" height="28" fill="#f4f4f2"/><rect class="vs" style="animation-delay:0.68s" x="1148" y="82" width="40" height="28" fill="#d9d9d6"/><rect class="vs" style="animation-delay:0.76s" x="1148" y="110" width="40" height="28" fill="#bdbdb9"/><rect class="vs" style="animation-delay:0.84s" x="1148" y="138" width="40" height="28" fill="#a09f9b"/><rect class="vs" style="animation-delay:0.92s" x="1148" y="166" width="40" height="28" fill="#83827e"/><rect class="vs" style="animation-delay:1.00s" x="1148" y="194" width="40" height="28" fill="#666561"/><rect class="vs" style="animation-delay:1.08s" x="1148" y="222" width="40" height="28" fill="#4a4946"/><rect class="vs" style="animation-delay:1.16s" x="1148" y="250" width="40" height="28" fill="#2f2e2c"/><rect class="vs" style="animation-delay:1.24s" x="1148" y="278" width="40" height="28" fill="#161615"/><rect x="1148" y="54" width="40" height="252" fill="none" stroke="rgba(255,255,255,.28)"/><text x="1198" y="72">1</text><text x="1198" y="100">2</text><text x="1198" y="128">3</text><text x="1198" y="156">4</text><text x="1198" y="184">5</text><text x="1198" y="212">6</text><text x="1198" y="240">7</text><text x="1198" y="268">8</text><text x="1198" y="296">9</text>
+<g class="probe"><path d="M1136 62 l8 6 l-8 6 z" fill="#8ab4f8"/><rect x="1146" y="53" width="44" height="30" fill="none" stroke="#8ab4f8" stroke-width="2" rx="3"/></g>
+<text x="1144" y="332" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#8ab4f8">VALUE</text>
+</g>
+
+<g class="rv d1"><rect x="84" y="62" rx="14" width="168" height="28" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.18)"/>
+<text x="168" y="81" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.8" fill="#cfe0ff">LEGAL PAGES</text></g>
+<g class="rv d2"><text x="84" y="182" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="80" font-weight="800" letter-spacing="-2.4" fill="url(#tx)">ValueGrid</text>
+<g mask="url(#tm)"><rect class="shine" x="84" y="90" width="150" height="110" fill="url(#sh)" transform="skewX(-20)"/></g>
+<text x="474" y="182" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="34" font-weight="500" letter-spacing="-.5" fill="#a9c6fb">Studio</text></g>
+<text class="rv d3" x="86" y="230" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="23" font-weight="500" fill="#e8eaed">The privacy policy for the Android drawing-grid app.</text>
+<g class="rv d4"><text x="86" y="286" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="17" font-weight="500" fill="#a3abb5" letter-spacing=".3">English <tspan fill="#8ab4f8">·</tspan> Türkçe <tspan fill="#8ab4f8">·</tspan> Deutsch <tspan fill="#8ab4f8">·</tspan> Español <tspan fill="#8ab4f8">·</tspan> Français</text>
+<rect x="500" y="266" rx="13" width="112" height="27" fill="rgba(138,180,248,.12)" stroke="rgba(138,180,248,.5)"/><text x="556" y="285" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1" fill="#cfe0ff">GDPR · EU</text></g>
+<rect x="1" y="1" width="1278" height="358" rx="27" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="2"/>
+</g></svg>
